@@ -1,4 +1,4 @@
-featured {
+#featured {
  
 img {
 
@@ -8,11 +8,13 @@ border-radius: 4px;
 }
 
 .card {
-position: relative;
-}
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  
+  &::before{
+  
 
-
-&::before{
   content: "";
   position:absolute;
   inset:0;
@@ -24,12 +26,27 @@ position: relative;
     
     );
   }
+
+  figcaption{
+position: absolute;
+bottom: 0;
+padding: 24px;
+
+h2{
+margin-top: 8px;
+}
+}
+
+} 
+
 }
 
 
 
 
-
+  
+  
+  
   
 
 
