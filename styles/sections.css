@@ -1,5 +1,5 @@
 #featured {
- 
+ margin: 40px;
 img {
 
 height: 100%;
@@ -31,6 +31,10 @@ border-radius: 4px;
 position: absolute;
 bottom: 0;
 padding: 24px;
+
+&:has(.text-lg){
+  padding: 12px;
+}
 
 h2{
 margin-top: 8px;
