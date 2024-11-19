@@ -1,57 +1,85 @@
 #featured {
- margin: 40px;
-img {
-
-height: 100%;
-object-fit: cover;
-border-radius: 4px;
-}
-
-.card {
-  border-radius: 4px;
-  overflow: hidden;
-  position: relative;
-  
-  &::before{
-  
-
-  content: "";
-  position:absolute;
-  inset:0;
-  top:50%;
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    #020617 100%
-    
-    );
+  margin: 40px;
+  img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
   }
 
-  figcaption{
-position: absolute;
-bottom: 0;
-padding: 24px;
+  .card {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
 
-&:has(.text-lg){
-  padding: 12px;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(180deg, transparent 0%, #020617 100%);
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+
+      &:has(.text-lg) {
+        padding: 12px;
+      }
+
+      h2 {
+        margin-top: 8px;
+      }
+    }
+  }
 }
 
-h2{
-margin-top: 8px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+form label {
+  font-weight: bold;
 }
 
-} 
-
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
+form input:focus,
+form textarea:focus {
+  border-color: #2c3e50;
+  outline: none;
+}
 
+form button {
+  padding: 10px;
+  border: none;
+  background: #2c3e50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
 
+form button:hover {
+  background: #34495e;
+}
 
-  
-  
-  
-  
-
-
-
+.newsletter {
+  width: 50vw;
+  display: flex;
+  margin-left: 42px;
+}

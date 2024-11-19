@@ -1,37 +1,43 @@
 #primary {
+  padding-block: 25px;
 
-padding-block: 25px;
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
 
+  div:nth-child(2) {
+    margin-inline: auto;
+  }
 
-div {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  
+  div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+#secondary {
+  padding-block: 14px;
+  border: solid 1px var(--stroke-color);
+  border-inline: none;
+  justify-content: space-between;
+}
+
+h1 {
+  color: green;
+  font-size: 45px;
+  font-style: oblique;
+}
+
+#intro {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+input[type="text"] {
+  background-color: var(--stroke-color);
+  border-radius: 10px;
+  color: white;
+  padding: 5px
 }
   
-  
-
-div:nth-child(2) {
-margin-inline:auto ;
-}
-
-div:nth-child(3){
-
-justify-self:end ;
-
-}
-}
-
-#secondary{
-padding-block: 14px;
-border: solid 1px var(--stroke-color);
-border-inline: none;
-justify-content: space-between;
-
-}
-
-
-
-
-
