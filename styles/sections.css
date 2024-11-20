@@ -1,5 +1,5 @@
 #featured {
-  margin: 40px;
+  margin: 25px;
   img {
     height: 100%;
     object-fit: cover;
@@ -83,3 +83,15 @@ form button:hover {
   display: flex;
   margin-left: 42px;
 }
+
+.carossel,
+.carossel2,
+.carossel3 {
+  padding: 50px;
+  height: 650px;
+  width: 100%;
+  margin: 4px;
+}
+
+
+

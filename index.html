@@ -41,10 +41,10 @@
         </div>
       </nav>
       <nav id="secondary" class="grid grid-flow-col">
-        <a href="#">Noticias</a>
-        <a href="#">brasileirão</a>
-        <a href="#">Noticias da semana</a>
-        <a href="#">futebol</a>
+         
+        <a class="menu" href="#formula">Newsletter</a>
+        <a class="menu" href="#featured">Noticias da semana</a>
+        <a class="menu" href="#">Futebol</a>
       </nav>
     </header>
 
@@ -83,7 +83,11 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="assests/image/Image 01.png" class="d-block w-100" alt="" />
+            <img
+              src="assests/image/DALL·E 2024-11-20 19.48.21 - A vibrant sports news image featuring a breaking news banner. The background showcases a dynamic football match in a large stadium filled with enthusi.webp"
+              class="carossel"
+              alt=""
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>
@@ -92,7 +96,11 @@
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="assests/image/Image 01.png" class="d-block w-100" alt="..." />
+            <img
+              src="assests/image/Image 01.png"
+              class="carossel2"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>
@@ -101,7 +109,11 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="assests/image/Image 01.png" class="d-block w-100" alt="..." />
+            <img
+              src="assests/image/Image 01.png"
+              class="carossel3"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
@@ -203,7 +215,7 @@
       </div>
     </section>
     <section class="newsletter grid grid-flow-col gap-16">
-      <form action="/enviar-feedback" method="POST">
+      <form action="/enviar-feedback" method="POST" id="formula">
         <span>Newsletter</span>
         <label for="nome">Seu Nome:</label>
         <input

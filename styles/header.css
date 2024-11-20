@@ -18,13 +18,13 @@
 
 #secondary {
   padding-block: 14px;
-  border: solid 1px var(--stroke-color);
   border-inline: none;
-  justify-content: space-between;
+  background-color: #06aa48;
+  justify-content: space-around;
 }
 
 h1 {
-  color: green;
+  color: #06aa48 !important;
   font-size: 45px;
   font-style: oblique;
 }
@@ -35,9 +35,23 @@ h1 {
 }
 
 input[type="text"] {
-  background-color: var(--stroke-color);
+  background-color: var(--verde);
   border-radius: 10px;
   color: white;
-  padding: 5px
+  padding: 5px;
+  border-style: none;
+  outline: none;
 }
-  
+
+
+
+.menu{
+color: white;
+text-decoration: none;
+}
+
+.carousel-caption,.d-none,.d-md-block{
+
+color:var(--branco)!important;
+
+}
