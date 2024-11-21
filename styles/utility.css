@@ -29,6 +29,7 @@
 
 .text-lg {
   font: var(--h3);
+  color: white;
 }
 
 .text-sm {

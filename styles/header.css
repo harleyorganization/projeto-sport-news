@@ -25,8 +25,8 @@
 
 h1 {
   color: #06aa48 !important;
-  font-size: 45px;
-  font-style: oblique;
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 #intro {
@@ -50,8 +50,15 @@ color: white;
 text-decoration: none;
 }
 
-.carousel-caption,.d-none,.d-md-block{
 
-color:var(--branco)!important;
 
+  
+.textointru{
+
+margin-left: 20px;
+font-family: "Bebas Neue", sans-serif;
+font-size: 2vw;
+text-align: center;
+margin: auto;
+color: #6c757d;
 }
