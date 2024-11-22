@@ -37,30 +37,23 @@ h1 {
 input[type="text"] {
   background-color: var(--verde-input);
   border-radius: 10px;
-  color: white;
+
   padding: 5px;
   border-style: groove;
   border-color: #06aa48;
-  outline:none ;
-  
+  outline: none;
 }
 
-
-
-.menu{
-color: white;
-text-decoration: none;
+.menu {
+  color: white;
+  text-decoration: none;
 }
 
-
-
-  
-.textointru{
-
-margin-left: 20px;
-font-family: "Bebas Neue", sans-serif;
-font-size: 2vw;
-text-align: center;
-margin: auto;
-color: #6c757d;
+.textointru {
+  margin-left: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  margin: auto;
+  color: #6c757d;
 }
